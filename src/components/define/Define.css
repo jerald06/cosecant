@@ -1,0 +1,10 @@
+.define {
+    height: 150px;
+    width: 300px;
+    align-items: center;
+    display: block;
+    background-color: blueviolet;
+    margin-left: 50px;
+    padding-bottom: 50px;
+   
+}
