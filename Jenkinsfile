@@ -16,7 +16,7 @@ pipeline {
         stage('Docker Build and Publish') {
             steps {
                 // Build and publish Docker image
-                image 'node:18-alpine'
+                image 'node:alpine'
                  args '-p 3000:3000'
             }
         }
